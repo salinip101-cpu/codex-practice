@@ -4,9 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codex Practice</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            font-family: Arial, sans-serif;
+            color: #1f2937;
+            background-color: #f3f4f6;
+        }
+
+        main {
+            width: 100%;
+            max-width: 640px;
+            padding: 48px;
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            margin: 0 0 12px;
+            font-size: 2.5rem;
+        }
+
+        .subtitle {
+            margin: 0 0 24px;
+            color: #2563eb;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        main p:not(.subtitle) {
+            margin: 0 0 28px;
+            color: #4b5563;
+            line-height: 1.6;
+        }
+
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            color: #ffffff;
+            background-color: #2563eb;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
+        }
+    </style>
 </head>
 <body>
-    <h1>My First Codex Project</h1>
-    <p>This page was created while learning VS Code, GitHub and Codex.</p>
+    <main>
+        <h1>My First Codex Project</h1>
+        <p class="subtitle">Learning, building, and growing one step at a time.</p>
+        <p>This page was created while learning VS Code, GitHub and Codex.</p>
+        <button type="button">Learn More</button>
+    </main>
 </body>
 </html>
